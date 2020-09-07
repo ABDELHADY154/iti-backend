@@ -23,8 +23,9 @@ echo 'File path: ' . $_SERVER['SCRIPT_FILENAME'];
 echo '<hr>';
 echo 'File name: ' . basename($_SERVER['SCRIPT_FILENAME']);
 echo '<hr>';
-// var_dump($_SERVER);
-
+echo '<pre>';
+print_r($_SERVER);
+echo '</pre>';
 for ($i = 0; $i < 10; $i++) {
     echo $i + 1;
 }
